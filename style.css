@@ -1,0 +1,52 @@
+body{
+	background-color: lightblue;
+}
+h1{
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 5px 5px 10px steelblue;
+}
+.repeat{
+	position: absolute;
+	left: 50%;
+	font-size: 20px;
+	background-color: steelblue;
+	text-align: center;
+	cursor: pointer;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+.grid-empty {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 5px solid rgba(0, 125, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.0);
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 5px solid rgba(0, 125, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-sel {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 5px solid rgba(0, 125, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-mtsel {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 5px solid rgba(0, 125, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: rgba(255,255,255,0.0);
+}
