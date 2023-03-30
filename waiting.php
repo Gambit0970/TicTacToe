@@ -17,7 +17,9 @@ if (isset($_SESSION['x']) and isset($_SESSION['o'])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1" charset="utf-8" http-equiv="refresh" content="2">
+    <meta http-equiv="refresh" content="5">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Tic Tac Toe game</title>
 
     <link rel='stylesheet' href='style.css' type='text/css'/>
